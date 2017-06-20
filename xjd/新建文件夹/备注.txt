@@ -1,0 +1,8 @@
+phpmyadmin导入sql文件,修改data/config.php的数据库链接   及  mobile/supplier/data/config.php 的数据库连接
+
+后台账号密码：admin 39035000qq
+商家后台及 商家手机后台  test888  test888
+微信通部分:
+微信通绑定不成功的,可以用下面那个index.php复制到mobile/weixin
+记得先备份mobile/weixin原来的index.php
+配置成功后,再把index.php替换回来.

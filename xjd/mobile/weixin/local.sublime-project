@@ -1,0 +1,26 @@
+{
+	"folders":
+	[
+		{
+			"path": "D:\\phpEnv\\www\\xjd"
+		}
+	],  
+
+    "settings":  
+
+    {  
+
+        "xdebug": {  
+			"url": "http://127.0.0.1/xjd/mobile/weixin/login.php",
+
+            "super_globals": true,  
+
+            "close_on_stop": true,  
+
+            "port": 9000
+
+        }  
+
+    }  
+
+}

@@ -1,0 +1,36 @@
+array (
+  'config' => 
+  array (
+    'expire' => 24,
+    'expire_unit' => 'hour',
+    'separate_by' => 0,
+    'level_point_all' => '50%',
+    'level_money_all' => '50%',
+    'level_register_all' => 2,
+    'level_register_up' => 60,
+  ),
+  'item' => 
+  array (
+    0 => 
+    array (
+      'level_point' => '60%',
+      'level_money' => '60%',
+    ),
+    1 => 
+    array (
+      'level_point' => '30%',
+      'level_money' => '30%',
+    ),
+    2 => 
+    array (
+      'level_point' => '7%',
+      'level_money' => '7%',
+    ),
+    3 => 
+    array (
+      'level_point' => '3%',
+      'level_money' => '3%',
+    ),
+  ),
+  'on' => 1,
+)
