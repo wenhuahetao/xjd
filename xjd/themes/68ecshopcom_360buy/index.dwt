@@ -14,7 +14,7 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <link rel="icon" href="animated_favicon.gif" type="image/gif" />
 <link rel="alternate" type="application/rss+xml" title="RSS|{$page_title}" href="{$feed_url}" />
-<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/index.css" />
+<link rel="stylesheet" type="text/css" href="themes/68ecshopcom_360buy/css/index1.css" />
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/jump.js"></script>
 <script type="text/javascript" src="themes/68ecshopcom_360buy/js/tab.js"></script>
@@ -34,7 +34,37 @@ var select_spe = "{$lang.select_spe}";
 		<!-- #BeginLibraryItem "/library/index_ad.lbi" --><!-- #EndLibraryItem -->
         <div class="right-sidebar">
 			<!-- #BeginLibraryItem "/library/recommend_right_promotion.lbi" --><!-- #EndLibraryItem -->	
-            <div class="proclamation">
+			 <div class="proclamation" style=" background: #FCFCFC; width: 190px;height: 220px; margin-top: 1px; padding: 0px 15px; box-sizing: content-box;">
+                <h3>
+                    <span><i></i>公告</span>
+                    <a href="article-79.html" target="_blank">
+                        更多<i>&gt;</i>
+                    </a>
+                </h3>
+                <!-- TemplateBeginEditable name="首页主广告右侧公告" -->
+                <!-- #BeginLibraryItem "/library/cat_articles1.lbi" --><!-- #EndLibraryItem -->
+                <!-- TemplateEndEditable -->
+            </div>
+            <div class="proclamation" style="height: auto;">
+                <h3>
+                    <span style="color: red;">一购送贴心服务</span>
+                </h3>
+            </div>
+            <div class="shortcut-menu">
+                <ul>
+                    <li><a href="/chong/huafei">
+                        <i id="service-huafei"></i>
+                        		话费
+                    </a></li>
+                    <li>
+                        <a href="/chong/jiayou">
+                            <i id="service-jiayou"></i>
+                           	 加油卡
+                        </a>
+                    </li>
+                </ul>
+            </div>
+          <!-- <div class="proclamation">
 					<ul class="tabs-nav">
                     	<li class="tabs-selected">
 							<h3>商城公告</h3>
@@ -53,7 +83,7 @@ var select_spe = "{$lang.select_spe}";
 							登录商家管理中心
 						</a>
 					</div>
-			</div>
+			</div>-->
         </div>
     </div>
     <!-- #BeginLibraryItem "/library/index_ad_groups.lbi" --><!-- #EndLibraryItem -->

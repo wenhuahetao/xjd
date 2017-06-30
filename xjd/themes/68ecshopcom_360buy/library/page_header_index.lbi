@@ -51,6 +51,9 @@ window.onerror = killerrors;
           <!-- {foreach name=nav_middle_list from=$navigator_list.middle item=nav } -->
           <li><a class="nav {if $nav.active eq 1}current{/if}" href="{$nav.url}" title="{$nav.name}" {if $nav.opennew eq 1}target="_blank" {/if}>{$nav.name}</a></li>
           <!-- {/foreach} -->
+          <li style="float:right">
+            <a href="javascript:void(0)">客户服务:400-876-1663</a>
+          </li>
         </ul>
         <div class="wrap-line"><span style="left:15px;"></span></div>
       </div>

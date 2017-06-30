@@ -3,7 +3,7 @@
 	<nav>
 		<ul>
 			{foreach from=$menu_list item=list name=name}
-			<li>
+			<li style="margin-left:10px">
 				<a href="{$list.menu_url}">
 					<img alt="{$list.menu_name}" src="{$list.menu_img}" />
 					<span>{$list.menu_name}</span>
