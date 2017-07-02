@@ -16,70 +16,14 @@
 <div class="body_bj">
 <!--网站头部-->
 <header id="header"> <!-- #BeginLibraryItem "/library/page_header.lbi" --> <!-- #EndLibraryItem --> </header>
-
 <!---搜索--->
 <div class="index_search">
-  <div class="index_search_mid"> <a href="searchindex.php"> <em>请输入您所搜索的商品</em> <span><img src="themesmobile/68ecshopcom_mobile/images/icosousuo.png"></span> </a> </div>
+  <div class="index_search_mid" style="margin-bottom:10px"> <a href="searchindex.php"> <em>请输入您所搜索的商品</em> <span><img src="themesmobile/68ecshopcom_mobile/images/icosousuo.png"></span> </a> </div>
 </div>
 
-<script>
-var oMarquee = document.getElementById("mq"); //滚动对象
-var iLineHeight = 30; //单行高度，像素
-var iLineCount = 7; //实际行数
-var iScrollAmount = 1; //每次滚动高度，像素
-function run() {
-oMarquee.scrollTop += iScrollAmount;
-if ( oMarquee.scrollTop == iLineCount * iLineHeight )
-oMarquee.scrollTop = 0;
-if ( oMarquee.scrollTop % iLineHeight == 0 ) {
-window.setTimeout( "run()", 2000 );
-} else {
-window.setTimeout( "run()", 50 );
-}
-}
-oMarquee.innerHTML += oMarquee.innerHTML;
-window.setTimeout( "run()", 2000 );
-</script>
-<!---广告位1--->
-<div class="floor_img" style="padding-top:10px">
-<h2>
- <!-- TemplateBeginEditable name="手机端首页广告1" -->
-<!-- #BeginLibraryItem "/library/ad_position.lbi" -->
-{insert name=ads id=$ads_id num=$ads_num}
- <!-- #EndLibraryItem -->
-<!-- TemplateEndEditable --> 
-</h2>
-<dl>
-    <dt> <!-- TemplateBeginEditable name="手机端首页广告2-1" -->
-<!-- TemplateEndEditable --> </dt>
-    <dd> 
-    <span class="Edge"> <!-- TemplateBeginEditable name="手机端首页广告2-2" -->
-<!-- TemplateEndEditable --> </span> 
-<span> 
-<!-- TemplateBeginEditable name="手机端首页广告2-3" -->
-<!-- TemplateEndEditable --> </span> </dd>
-  </dl>
-<ul>
-<li class="brom">
- <!-- TemplateBeginEditable name="手机端首页广告3-1" -->
-<!-- TemplateEndEditable --> 
-</li>
-<li>
- <!-- TemplateBeginEditable name="手机端首页广告3-2" -->
-<!-- TemplateEndEditable --> 
-</li>
-</ul>
-<ul>
-<li class="brom">
- <!-- TemplateBeginEditable name="手机端首页广告4-1" -->
-<!-- TemplateEndEditable --> 
-</li>
-<li>
- <!-- TemplateBeginEditable name="手机端首页广告4-2" -->
-<!-- TemplateEndEditable --> 
-</li>
-</ul>
-</div>
+<!--banner--> 
+<!-- #BeginLibraryItem "/library/index_ad.lbi" --> <!-- #EndLibraryItem --> 
+<!--banner end--> 
 
 <!-- #BeginLibraryItem "/library/index_icon.lbi" --><!-- #EndLibraryItem --> 
 

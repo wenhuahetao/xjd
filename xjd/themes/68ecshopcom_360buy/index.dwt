@@ -52,7 +52,7 @@ var select_spe = "{$lang.select_spe}";
             </div>
             <div class="shortcut-menu">
                 <ul>
-                    <li><a href="/chong/huafei">
+                    <li><a href="apply_index.php">
                         <i id="service-huafei"></i>
                         		话费
                     </a></li>
